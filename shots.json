@@ -1,5 +1,1 @@
-[
-  { "name": "1-cover.jpg", "query": "?shot=cover&photo=pier&caption=Sunset%20Heist", "w": 1080, "h": 1080 },
-  { "name": "2-editor.jpg", "query": "?shot=editor&photo=boulevard&caption=Boulevard%20Queen", "w": 1280, "h": 720 },
-  { "name": "3-cover.jpg", "query": "?shot=cover&photo=boulevard&caption=Boulevard%20Queen", "w": 1080, "h": 1080 }
-]
+[{"h":720,"name":"1-cover.jpg","query":"?shot=cover&layout=posterGrid&grade=neon&size=wide&dw=1280&dh=720&title=Neon%20Coast&sub=vice%20nights&tag=Every%20story%20ends%20at%20the%20shore","w":1280},{"h":800,"name":"2-editor.jpg","query":"?shot=editor&layout=posterGrid&grade=sunset&size=portrait&title=Neon%20Coast&sub=vice%20nights&tag=Every%20story%20ends%20at%20the%20shore","w":1280},{"h":1280,"name":"3-cover.jpg","query":"?shot=cover&layout=heroStrip&grade=sunset&size=portrait&dw=1024&dh=1280&title=Neon%20Coast&sub=vice%20nights&tag=Every%20story%20ends%20at%20the%20shore","w":1024},{"h":960,"name":"4-cover.jpg","query":"?shot=cover&layout=nineGrid&grade=golden&size=square&dw=960&dh=960&title=Neon%20Coast&sub=golden%20hour&tag=Every%20story%20ends%20at%20the%20shore","w":960}]

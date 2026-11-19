@@ -11,7 +11,7 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-app.ts';
@@ -38,3 +38,8 @@ writeFileSync(
     app_path_max_bytes: 1000,
   }),
 );
+
+// Neon Coast Cover Studio addition: say plainly what was handed in, so a person who
+// runs this by hand can see the entry is complete before they submit it.
+const dossierBytes = statSync(join(out, 'dossier.json')).size;
+console.log(`neon-coast cover studio: app/ and screenshots/ handed in, dossier.json is ${dossierBytes} bytes`);
